@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: auto;
+}
+
+body > a:first-child{
+    position: relative;
+    top: -50px;
+}
+
+.current {
+    color: yellow;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+}
